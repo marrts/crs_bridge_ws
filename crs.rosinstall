@@ -1,0 +1,2 @@
+- git: {local-name: ros1_action_bridge, uri: 'https://github.com/ben-greenberg/ros1_action_bridge.git', version: 16257de}
+- git: {local-name: ros1_bridge, uri: 'https://github.com/ros2/ros1_bridge.git', version: 60f903c}
