@@ -12,6 +12,10 @@ def generate_launch_description():
             output='screen'),
         launch_ros.actions.Node(
             package='action_bridge',
+            node_executable='reverse_action_bridge_cartesian_compliance_trajectory_node',
+            output='screen'),
+        launch_ros.actions.Node(
+            package='action_bridge',
             node_executable='reverse_action_bridge_follow_joint_trajectory_node',
             output='screen')
     ])
